@@ -1,0 +1,24 @@
+/* src/components/Ubicacion.css */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    background-color: #ffafcc; /* Color del botón tipo boda */
+    color: #4a3f35; /* Color del texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #ff8b9f; /* Color al pasar el mouse */
+  }
+  

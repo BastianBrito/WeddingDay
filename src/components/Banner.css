@@ -1,0 +1,45 @@
+/* Estilo del banner con fondo degradado suave en tonos rosas y dorados */
+.banner {
+    padding: 20px 40px; /* Espaciado más amplio */
+    margin-bottom: 30px; /* Más espacio debajo */
+    text-align: center; /* Alineación centrada */
+    border-top-left-radius: 0; /* Sin redondeo en la esquina superior izquierda */
+    border-top-right-radius: 0; /* Sin redondeo en la esquina superior derecha */
+    border-bottom-left-radius: 50%; /* Redondeo total en la parte inferior izquierda */
+    border-bottom-right-radius: 50%; /* Redondeo total en la parte inferior derecha */
+    border: 2px solid #d1c6b1; /* Borde suave de color neutro */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra ligera para suavizar */
+    background: linear-gradient(to bottom, #f8c8d4, #f5d4a1); /* Degradado suave de rosa a dorado pálido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* Ocultar lo que sobrepase el contenedor */
+  }
+  
+  /* Título del banner */
+  .banner h1 {
+    font-size: 24px; /* Título con un tamaño moderado */
+    color: #fff; /* Blanco para resaltar sobre el fondo rosa y dorado */
+    margin-bottom: 5px; /* Menos espacio debajo */
+    font-weight: normal; /* Peso normal */
+  }
+  
+  /* Subtítulo con el nombre del usuario */
+  .banner p {
+    font-size: 16px; /* Texto más pequeño */
+    color: #fff; /* Blanco */
+    font-weight: normal; /* Peso normal */
+    margin-top: 5px; /* Ajustamos el espacio superior */
+    font-style: italic; /* Mantener estilo itálico */
+  }
+  
+  /* El nombre del usuario */
+  .banner .usuario {
+    font-size: 18px; /* Tamaño regular del nombre */
+    color: #fff; /* Blanco */
+    font-weight: normal; /* Peso normal */
+    margin-top: 3px; /* Espaciado más compacto */
+  }
+  

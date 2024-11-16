@@ -1,0 +1,18 @@
+/* Estilo para alinear los elementos li en el itinerario */
+.itinerario ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+  }
+  
+  .itinerario li {
+    display: flex; /* Utiliza Flexbox para alinear el texto */
+    justify-content: space-between; /* Espacio entre el texto y la hora */
+    padding: 8px 0; /* Espaciado entre los elementos */
+    border-bottom: 1px solid #ddd; /* Línea debajo de cada elemento */
+  }
+  
+  .itinerario li:last-child {
+    border-bottom: none; /* Elimina la línea del último elemento */
+  }
+  
