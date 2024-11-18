@@ -40,7 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://bastianbrito.github.io/WeddingDay",
+  "homepage": "https://bastianbrito.github.io/WeddingDay/#/WeddingDay",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
