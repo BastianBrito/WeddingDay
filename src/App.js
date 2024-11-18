@@ -7,7 +7,6 @@ const App = () => {
   return (
     <Router basename={process.env.PUBLIC_URL || "/"}>
       <Routes>
-        <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Login />} />
       </Routes>
