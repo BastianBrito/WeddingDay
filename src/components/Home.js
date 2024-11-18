@@ -9,7 +9,6 @@ import FechaEvento from "./FechaEvento";
 import Banner from "./Banner";
 import Novios from "./Novios"; // Importamos el componente Novios
 import "./Home.css";
-import esquina1 from "../assets/images/novios/esquina-1.png";
 import esquina2 from "../assets/images/novios/esquina-2.png";
 
 const Home = () => {
