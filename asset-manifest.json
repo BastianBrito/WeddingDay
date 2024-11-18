@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/WeddingDay/static/css/main.d4f84335.css",
-    "main.js": "/WeddingDay/static/js/main.f48ef092.js",
+    "main.css": "/WeddingDay/static/css/main.91fe4dde.css",
+    "main.js": "/WeddingDay/static/js/main.1bc5d499.js",
     "static/js/453.8fab3b6f.chunk.js": "/WeddingDay/static/js/453.8fab3b6f.chunk.js",
     "static/media/slick.svg": "/WeddingDay/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/WeddingDay/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/WeddingDay/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/WeddingDay/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/WeddingDay/index.html",
-    "main.d4f84335.css.map": "/WeddingDay/static/css/main.d4f84335.css.map",
-    "main.f48ef092.js.map": "/WeddingDay/static/js/main.f48ef092.js.map",
+    "main.91fe4dde.css.map": "/WeddingDay/static/css/main.91fe4dde.css.map",
+    "main.1bc5d499.js.map": "/WeddingDay/static/js/main.1bc5d499.js.map",
     "453.8fab3b6f.chunk.js.map": "/WeddingDay/static/js/453.8fab3b6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4f84335.css",
-    "static/js/main.f48ef092.js"
+    "static/css/main.91fe4dde.css",
+    "static/js/main.1bc5d499.js"
   ]
 }
