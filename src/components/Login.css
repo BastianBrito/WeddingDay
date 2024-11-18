@@ -1,92 +1,64 @@
+/* Fondo ligero con gradiente */
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f8e7a2, #e1f1d3); /* Gradiente suave dorado a verde claro */
+}
+
 /* Contenedor principal */
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to right, #f8e7a2, #e1f1d3); /* Gradiente de dorado a verde claro */
-  }
-  
-  /* Estilo del formulario */
-  .login-form {
-    background: rgba(255, 255, 255, 0.9); /* Fondo con un toque de transparencia */
-    padding: 2rem 3rem;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-  }
-  
-  /* Título del formulario */
-  .login-title {
-    text-align: center;
-    color: #6a5d3b; /* Color dorado suave para el título */
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-family: 'Georgia', serif; /* Fuente elegante */
-  }
-  
-  /* Estilo de los grupos de entrada */
-  .input-group {
-    margin-bottom: 1.5rem;
-  }
-  
-  /* Estilo de las etiquetas */
-  .input-group label {
-    font-size: 0.9rem;
-    color: #4c4c4c; /* Gris oscuro para las etiquetas */
-    margin-bottom: 0.5rem;
-    display: block;
-  }
-  
-  /* Estilo de los campos de entrada */
-  .input-group input {
-    width: 100%;
-    padding: 0.8rem;
-    font-size: 1rem;
-    border: 1px solid #e1f1d3; /* Borde verde claro */
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    transition: all 0.3s ease;
-  }
-  
-  /* Estilo de los campos al enfocar */
-  .input-group input:focus {
-    border-color: #6a5d3b; /* Color dorado cuando se enfoca */
-    outline: none;
-    background-color: #fff;
-  }
-  
-  /* Estilo del botón de envío */
-  .submit-btn {
-    width: 100%;
-    padding: 0.9rem;
-    background-color: #6a5d3b; /* Color dorado para el botón */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  /* Hover en el botón */
-  .submit-btn:hover {
-    background-color: #e1f1d3; /* Gradiente a verde claro */
-    color: #6a5d3b;
-    transform: scale(1.05);
-  }
-  
-  /* Efecto de transición para el formulario */
-  .login-form {
-    opacity: 0;
-    animation: fadeIn 0.5s forwards;
-  }
-  
-  /* Animación de desvanecimiento */
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: none; /* Elimina el fondo previo */
+}
+
+/* Estilo del formulario */
+.login-form {
+  background: rgba(255, 255, 255, 0.9); /* Fondo blanco con un toque de transparencia */
+  padding: 1.5rem 2rem; /* Tamaño reducido */
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 320px; /* Ancho máximo reducido */
+  width: 100%;
+}
+
+/* Título del formulario */
+.login-title {
+  text-align: center;
+  color: #6a5d3b; /* Color dorado suave */
+  font-size: 1.8rem; /* Tamaño del título ligeramente reducido */
+  margin-bottom: 0.8rem;
+  font-family: 'Georgia', serif;
+}
+
+/* Estilo de los grupos de entrada */
+.input-group {
+  margin-bottom: 1rem; /* Menor margen entre campos */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.7rem; /* Reducción de padding */
+  font-size: 1rem;
+  border: 1px solid #e1f1d3;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+/* Botón de envío */
+.submit-btn {
+  width: 100%;
+  padding: 0.7rem; /* Padding reducido */
+  background-color: #6a5d3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem; /* Tamaño de texto ajustado */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}

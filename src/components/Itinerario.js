@@ -1,6 +1,6 @@
 // src/components/Itinerario.js
 import React from 'react';
-// import './Itinerario.css'; // Asegúrate de importar el archivo CSS
+import './Itinerario.css'; // Asegúrate de importar el archivo CSS
 
 const Itinerario = () => {
   const actividades = [

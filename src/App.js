@@ -5,14 +5,15 @@ import Home from "./components/Home";  // Importa el componente Home
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL || "/"}>
       <Routes>
-        <Route path="/login" element={<Login />} /> {/* Ruta del Login */}
-        <Route path="/home" element={<Home />} />   {/* Ruta del Home */}
-        <Route path="/" element={<Login />} />      {/* Ruta predeterminada */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </Router>
   );
 };
 
 export default App;
+
