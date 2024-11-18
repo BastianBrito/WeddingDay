@@ -1,10 +1,15 @@
 /* Fondo con gradiente */
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom right, #f8e7a2, #e1f1d3); /* Gradiente suave */
+  background: linear-gradient(
+    to bottom right,
+    #e8f4e1,
+    #d1e5d1
+  ); /* Gradiente verde suave */
 }
 
 /* Estilo general de la tarjeta */
@@ -12,18 +17,45 @@ body, html {
   background-color: rgba(255, 255, 255, 0.6); /* Fondo blanco con 60% de opacidad */
   backdrop-filter: blur(10px); /* Aplica el desenfoque */
   border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  margin: 20px; /* Espaciado entre tarjetas */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Centrado de texto */
+  flex: 1; /* Para que ocupe el mismo espacio dentro del card-row */
+  border: none; /* Bordes invisibles */
+  position: relative; /* Establece un contexto de posicionamiento */
+}
+
+/* Imagen en la esquina superior derecha */
+.card img.top-right {
+  position: absolute;
+  top: -15px; /* Mueve la imagen un poco más hacia adentro (menos negativo) */
+  right: -15px; /* Mueve la imagen un poco más hacia adentro (menos negativo) */
+  width: 100px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border: none; /* Asegura que no tenga borde redondeado */
+  box-shadow: none; /* Elimina la sombra de la imagen */
+}
+
+
+
+/* Estilo de las subtarjetas */
+.card-subcard {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con 80% de opacidad */
+  backdrop-filter: blur(10px); /* Aplica el desenfoque */
+  border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
   margin: 20px; /* Espaciado entre tarjetas */
   padding: 20px; /* Espaciado interno */
   text-align: center; /* Centrado de texto */
   flex: 1; /* Para que ocupe el mismo espacio dentro del card-row */
-  border: 1px solid #e1f1d3; /* Bordes en verde claro */
+  border: 1px solid #b5d5b0; /* Bordes en verde suave */
 }
 
 /* Estilo de los textos de las listas */
 h2 {
-  font-family: 'Georgia', serif;
-  color: #6a5d3b; /* Color dorado suave */
+  font-family: "Georgia", serif;
+  color: #4c7c4d; /* Verde más oscuro */
   margin-bottom: 10px;
 }
 
@@ -35,7 +67,7 @@ ul {
 
 li {
   font-size: 1.2em;
-  color: #6a5d3b; /* Color suave */
+  color: #4c7c4d; /* Color verde más oscuro */
   margin: 10px 0;
 }
 

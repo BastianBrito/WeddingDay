@@ -1,46 +1,37 @@
-/* Estilo de los textos de las listas */
-h2 {
-    font-family: 'Georgia', serif;
-    color: #6a5d3b; /* Color dorado suave, como en el login */
-    margin-bottom: 10px;
-  }
-  
-  /* Estilo general para el componente */
-  .fecha-evento {
-    text-align: center;
-    margin: 20px 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  /* Título principal "Fecha evento:" */
-  .fecha-evento-titulo {
-    font-size: 36px; /* Título grande */
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #6a5d3b; /* Color dorado suave */
-  }
-  
-  /* Fecha ingresada (título resaltado) */
-  .fecha-evento-fecha {
-    font-size: 28px; /* Tamaño de título mediano */
-    font-weight: 600;
-    color: #f5d0a9; /* Color dorado claro, similar al botón */
-    margin-bottom: 20px;
-  }
-  
-  /* Título pequeño "Quedan:" */
-  .fecha-evento-quedan {
-    font-size: 18px; /* Título pequeño */
-    font-weight: 500;
-    color: #6e4b3b; /* Color suave y elegante */
-    margin-bottom: 10px;
-  }
-  
-  /* Cuenta regresiva (título discreto) */
+/* Estilo general para el componente */
+.fecha-evento {
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Título principal "Fecha evento:" */
+.fecha-evento-titulo {
+  font-size: 36px; /* Título grande */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #6a5d3b; /* Color verde suave */
+}
+
+/* Fecha ingresada (título resaltado) */
+.fecha-evento-fecha {
+  font-size: 28px; /* Tamaño de título mediano */
+  font-weight: 600;
+  color: #a1c8a1; /* Color verde claro */
+  margin-bottom: 20px;
+}
+
+/* Título pequeño "Quedan:" */
+.fecha-evento-quedan {
+  font-size: 18px; /* Título pequeño */
+  font-weight: 500;
+  color: #6e4b3b; /* Color gris cálido */
+  margin-bottom: 10px;
+}
+
+/* Cuenta regresiva (título discreto) */
 .fecha-evento-cuenta-regresiva {
-    font-size: 16px; /* Tamaño de texto discreto */
-    color: #f5a623; /* Un color amarillo brillante, para mayor visibilidad */
-    font-weight: 600; /* Mayor peso de la fuente para hacerla más prominente */
-  }
-  
-  
+  font-size: 16px; /* Tamaño de texto discreto */
+  color: #91b68f; /* Un color verde oliva suave para visibilidad */
+  font-weight: 600; /* Mayor peso de la fuente para hacerla más prominente */
+}

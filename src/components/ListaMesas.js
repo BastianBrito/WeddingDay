@@ -3,7 +3,7 @@ import React from 'react';
 
 const ListaMesas = ({ mesas, username, mesaAsignada }) => {
   return (
-    <div className="card">
+    <div className="card-subcard">
       <h2>Lista de Mesas</h2>
       <ul>
         {mesas.map((mesa, index) => (

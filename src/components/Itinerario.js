@@ -12,7 +12,7 @@ const Itinerario = () => {
   ];
 
   return (
-    <div className="card itinerario">
+    <div className="card-subcard itinerario">
       <h2>Itinerario</h2>
       <ul>
         {actividades.map((actividad, index) => (

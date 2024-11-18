@@ -3,7 +3,7 @@ import React from 'react';
 
 const ListaInvitados = ({ invitados, username }) => {
   return (
-    <div className="card">
+    <div className="card-subcard">
       <h2>Lista de Invitados</h2>
       <ul>
         {invitados.map((invitado, index) => (

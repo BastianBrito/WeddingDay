@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+/* Estilo para el contenedor de los novios */
+.novios-container {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 20px;
+    display: flex; /* Utilizamos flexbox para centrar */
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    flex-direction: column; /* Asegura que la imagen y el texto estén uno debajo del otro */
+    height: 100%; /* Esto hace que el contenedor ocupe toda la altura disponible */
+  }
+  
+  /* Estilo para la foto de los novios */
+  .novios-photo {
+    width: 300px; /* Nuevo tamaño de la foto */
+    height: 300px; /* Altura igual al ancho para hacerla redonda */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente */
+    margin-bottom: 15px; /* Espaciado entre la imagen y el texto */
+  }
+  
+  /* Estilo para el texto de los novios */
+  .novios-text {
+    font-size: 3em; /* Tamaño grande del texto */
+    font-family: "Playfair Display", serif; /* Fuente elegante Playfair Display */
+    color: #4c7c4d; /* Verde oscuro para el texto */
+    font-weight: bold; /* Texto en negrita */
+    line-height: 1.2; /* Asegura un buen espaciado entre líneas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+  }
+  
+  /* Asegura que el texto se divida en varias líneas */
+  .novios-text span {
+    display: block; /* Hace que cada parte del texto se muestre en su propia línea */
+    color: #4c7c4d; /* Color verde oscuro */
+  }
+  

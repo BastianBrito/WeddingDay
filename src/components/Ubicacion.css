@@ -1,6 +1,6 @@
 /* Estilo del botón */
 button {
-  background-color: #6a5d3b; /* Color dorado del botón */
+  background-color: #6a5d3b; /* Color verde suave para el botón */
   color: white; /* Texto blanco en el botón */
   padding: 10px 20px; /* Espaciado del botón */
   border: none;
@@ -13,5 +13,5 @@ button {
 }
 
 button:hover {
-  background-color: #f8c7f1; /* Color al pasar el mouse sobre el botón */
+  background-color: #a1c8a1; /* Color verde claro al pasar el mouse sobre el botón */
 }
