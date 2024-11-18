@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/WeddingDay/static/css/main.91fe4dde.css",
-    "main.js": "/WeddingDay/static/js/main.1bc5d499.js",
+    "main.css": "/WeddingDay/static/css/main.f5a33b62.css",
+    "main.js": "/WeddingDay/static/js/main.da51ce71.js",
     "static/js/453.8fab3b6f.chunk.js": "/WeddingDay/static/js/453.8fab3b6f.chunk.js",
+    "static/media/bastian-macarena-3.png": "/WeddingDay/static/media/bastian-macarena-3.ba1857fabc5ebd7f5022.png",
+    "static/media/esquina-2.png": "/WeddingDay/static/media/esquina-2.d597f21a3fd6a82931e4.png",
     "static/media/slick.svg": "/WeddingDay/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/WeddingDay/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/WeddingDay/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/WeddingDay/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/WeddingDay/index.html",
-    "main.91fe4dde.css.map": "/WeddingDay/static/css/main.91fe4dde.css.map",
-    "main.1bc5d499.js.map": "/WeddingDay/static/js/main.1bc5d499.js.map",
+    "main.f5a33b62.css.map": "/WeddingDay/static/css/main.f5a33b62.css.map",
+    "main.da51ce71.js.map": "/WeddingDay/static/js/main.da51ce71.js.map",
     "453.8fab3b6f.chunk.js.map": "/WeddingDay/static/js/453.8fab3b6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91fe4dde.css",
-    "static/js/main.1bc5d499.js"
+    "static/css/main.f5a33b62.css",
+    "static/js/main.da51ce71.js"
   ]
 }
