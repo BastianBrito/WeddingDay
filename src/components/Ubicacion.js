@@ -1,6 +1,6 @@
 // src/components/Ubicacion.js
 import React from "react";
-import Map from "./Map.js";
+// import Map from "./Map.js"; // Activar mapa cuando ya esté listo el proyecto
 import "./Ubicacion.css"; // Si no tienes un archivo CSS, puedes agregar los estilos en línea
 
 const Ubicacion = () => {
